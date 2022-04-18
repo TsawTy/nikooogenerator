@@ -3,7 +3,7 @@ function sleep(ms) {
 }
 
 const setTitle = require("node-bash-title");
-setTitle("wogahizmet");
+setTitle("nikohizmet");
 const fs = require("fs");
 async function main() {
   console.clear();
@@ -11,7 +11,7 @@ async function main() {
   const ps = require("prompt-sync");
   const prompt = ps();
   const colors = require("colors");
-  console.log("woga tarafından kodlandı");
+  console.log("niko tarafından kodlandı");
   console.log("[" + "1".brightBlue + "] [" + "Token Oluşturamaya Başla".green + "]");
   console.log("[" + "2".brightBlue + "] Yardım");
   console.log("[" + "3".brightBlue + "] Çıkış Yap");
@@ -34,7 +34,7 @@ async function main() {
     console.log(
       "[" +
         "!".green +
-        "] Eğer sunuculara token sokmak istiyorsanız discorddan ekleyebilirsiniz woga#0262 "
+        "] Eğer sunuculara token sokmak istiyorsanız discorddan ekleyebilirsiniz NİKO#1978 "
     );
     let choicewbwile2 = prompt("[?]>");
     if (choicewbwile2 == "y") {
@@ -299,7 +299,7 @@ async function main() {
         style: "capital",
         length: 2,
       });
-      const password = "allahinizwoga"; //TÜM OLUSTURDUGUN TOKENLERİN ŞİFRELERİ BU OLACAK
+      const password = "allahinizniko"; //TÜM OLUSTURDUGUN TOKENLERİN ŞİFRELERİ BU OLACAK
       const page2 = (await chrome.pages())[0];
       var email;
 
@@ -376,7 +376,7 @@ async function main() {
       main();
     })();
   } else if (choice == 2) {
-    console.log("daha fazla bilgi için woga#0262");
+    console.log("daha fazla bilgi için NİKO#1978");
     let reactionChoice = prompt("[" + "?".brightBlue + "]>");
     reactionChoice = main();
   } else if (choice == 3) {
